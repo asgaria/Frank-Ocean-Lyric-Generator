@@ -1,0 +1,2 @@
+var mine = `How come the ecstasy always depresses me so?
+Chemically I don't have no more new places to go`

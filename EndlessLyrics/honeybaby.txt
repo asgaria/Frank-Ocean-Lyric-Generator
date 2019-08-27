@@ -1,0 +1,1 @@
+const honeybaby = "Oh, minha honey baby! Woo!"

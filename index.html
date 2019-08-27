@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>What would Frank say?</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="./EndlessLyrics/alabama.js"></script>
+    <script src="./EndlessLyrics/higgs.js"></script>
+    <script src="./EndlessLyrics/aCertainWay.js"></script>
+    <script src="./EndlessLyrics/sideways.js"></script>
+    <script src="./EndlessLyrics/atYourBest.js"></script>
+    <script src="./EndlessLyrics/comme-des-garcons.js"></script>
+    <script src="./EndlessLyrics/honeybaby.js"></script>
+    <script src="./EndlessLyrics/hublots.js"></script>
+    <script src="./EndlessLyrics/impietas-deathwish-asr.js"></script>
+    <script src="./EndlessLyrics/in-here-somewhere.js"></script>
+    <script src="./EndlessLyrics/mine.js"></script>
+    <script src="./EndlessLyrics/mitsubishi-sony.js"></script>
+    <script src="./EndlessLyrics/rushes.js"></script>
+    <script src="./EndlessLyrics/slide-on-me.js"></script>
+    <script src="./EndlessLyrics/unity.js"></script>
+    <script src="./EndlessLyrics/wither.js"></script>
+    <script src="./EndlessLyrics/xenons.js"></script>
+
+    <script src=./future_lyrics.js> </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/favicon-16x16.png">
+  </head>
+
+  <body>
+    <div id="bg"></div>
+
+    <div id="content">
+      <h1 id=info style="color:#78FFCD; font-family: Futura; margin-left: 10px"> What would Frank say? </h1>
+      <h1 id=pick_title style="font-family: Futura"> Pick a Project </h1>
+      <div class="button_wrapper">
+        <img id=nostalgiaUltra src="./images/nostalgiaUltra.jpeg" class=generateAlbum onclick="writeLyric('nostalgiaUltra')">
+        <img id=channelOrange src="./images/channelOrange.jpg" class=generateAlbum onclick="writeLyric('channelOrange')">
+        <img id=endless src="./images/Endless.jpg" class=generateAlbum onclick="writeEndlessLyric()">
+        <img id=blonde src="./images/Blonde.png" class=generateAlbum onclick="writeLyric('blonde')">     
+      </div>
+      <div id=displayBox>
+        <h1 id=displayLyric> </h1>
+        <h2 id=displaySong> </h2>
+        <h3 id=displayArtist> </h3>
+        <div id="tweet_button_spot"> </div>
+      </div>
+      <footer id="foot">
+        Created by: Arya Asgari | Lyrics: APISEED & GENIUS | 🙏 
+      </footer>
+  </div>
+  </body>
+</html>

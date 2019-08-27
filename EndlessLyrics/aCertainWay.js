@@ -1,0 +1,4 @@
+var aCertainWay = `In a certain way
+'Cause you are beautiful and you are young
+You deserve to have the best in life
+In a certain way`
