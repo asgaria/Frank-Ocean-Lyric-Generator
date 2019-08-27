@@ -146,7 +146,7 @@ function logLyric(song){
   console.log("hello");
 
   $.ajax({
-    url: "https://orion.apiseeds.com/api/music/lyric/Frank%20Ocean/" + v + "?apikey=fNznzo23pbuN7CMRSkpaAajZpvugydkhxXLwS2BmhbkCenkLJATSY4iCF8vRBpxD",
+    url: "https://orion.apiseeds.com/api/music/lyric/Frank%20Ocean/" + v + KEY,
     cache: false,
     success: function(result){
       console.log(result)
