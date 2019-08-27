@@ -1,8 +1,7 @@
-<h1> Project Title <h1>
+<h1> Project Title </h1>
 Frank Ocean Random Lyric Generator 
 
-<h2> In action: <h2>
-franky-says.surge.sh
+To see it in action, [click here](franky-says.surge.sh)
 
 
 
