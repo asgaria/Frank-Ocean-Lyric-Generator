@@ -3,11 +3,11 @@
 To see it in action, [click here](http://www.franky-says.surge.sh)
 
 <h2> Built with: </h2>
-* HTML
-* CSS
-* JavaScript
-* APISEED 
-* Surge.sh
+*HTML
+*CSS
+*JavaScript
+*APISEED 
+*Surge.sh
 
 
 
