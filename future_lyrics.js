@@ -85,13 +85,13 @@ var blondeTracklist =
   "Futura%20Free"
 ]
 
-function bg_thang(){
+function changeBg(){
   random_bg = Math.floor((Math.random() * background_list.length));
   document.getElementById('bg').style.backgroundImage = background_list[random_bg];
 }
 
 window.onload = function() {
-  bg_thang();
+  changeBg();
 }
 
 function recolor(album){
@@ -205,31 +205,8 @@ function writeLyric(album){
   return;
 }
 
-function getEndlessSongname(songFile)
-{
-  name = songFile.replace("-", " ");
-  name = name.slice(0, -4);
-  return name;
-}
 
 
-function getEndlessSongLine(songFile)
-{
-  var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "./EndlessLyrics/" + songFile, false);
-    rawFile.onreadystatechange = function ()
-    {
-        if(rawFile.readyState === 4)
-        {
-            if(rawFile.status === 200 || rawFile.status == 0)
-            {
-                var allText = rawFile.responseText;
-                console.log(allText);
-            }
-        }
-    }
-    rawFile.send(null);
-}
 
 function getEndlessSongLine()
 {
